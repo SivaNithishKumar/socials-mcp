@@ -134,7 +134,7 @@ Open an issue if you're unsure where your change fits – we're happy to help.
 <table>
   <tr>
     <td align="center"><img src="https://avatars.githubusercontent.com/u/119799567?v=4" width="80;" alt="darkside"/><br /><sub><b>The&nbsp;Darkside</b></sub></td>
-    <td align="center"><img src="https://avatars.githubusercontent.com/u/000000?v=4" width="80;" alt="jk"/><br /><sub><b>JK</b></sub></td>
+    <td align="center"><img src="https://avatars.githubusercontent.com/u/126973043?s=64&v=4" width="80;" alt="jk"/><br /><sub><b>JK</b></sub></td>
   </tr>
 </table>
 
