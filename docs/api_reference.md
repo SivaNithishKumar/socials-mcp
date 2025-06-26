@@ -8,6 +8,7 @@
 3. [Facebook Page](#facebook-page)
 4. [Instagram Graph](#instagram-graph)
 5. [LinkedIn](#linkedin)
+6. [Reddit CLI & Tools](#reddit-cli--tools)
 
 ---
 
@@ -82,6 +83,40 @@ Location: `Base_APIs/LinkedIn_post.py`
 | `delete_post()` | Delete post by URN. |
 
 Needs **`w_member_social`** permission and v2 auth token.
+
+---
+
+## Reddit CLI & Tools
+Location: `socials-mcp/reddit_cli.py`
+
+A command-line interface and toolkit for interacting with Reddit using OAuth2 authentication. Supports a wide range of user and subreddit actions via a menu-driven CLI.
+
+**Features:**
+
+| Functionality | Description |
+| ------------- | ----------- |
+| Credential setup | Save Reddit API credentials to a config file for future use. |
+| Get authenticated user info | Display username, link karma, and comment karma. |
+| List subscribed subreddits | Show subreddits the user is subscribed to. |
+| List user activity | List saved, upvoted, or downvoted posts/comments. |
+| List or browse subreddit posts | List or browse posts from a subreddit (hot, new, top, rising) in a single menu. |
+| Search subreddit posts | Search for posts in a subreddit by query. |
+| List user posts | List recent posts by a specified user. |
+| Get subreddit info | Show subreddit metadata (title, description, subscribers, NSFW). |
+| List recent comments | List recent comments in a subreddit. |
+| Submit post | Submit a new post to a subreddit (title & text). |
+| Submit comment | Comment on a post by post ID. |
+| Vote | Upvote or downvote a post or comment by ID (uses a unified item handler). |
+| Save/unsave | Save or unsave a post or comment by ID (uses a unified item handler). |
+| Delete | Delete a post or comment by ID (uses a unified item handler, if permitted). |
+| Menu-driven CLI | All actions are accessible via a numbered menu; prompts for required info. |
+
+**Authentication:**
+- Uses Reddit OAuth2 (script app type). Credentials can be entered at runtime or saved via the credential setup tool.
+
+**Usage:**
+- Run the CLI: `python socials-mcp/reddit_cli.py`
+- Follow the prompts to select and perform Reddit actions.
 
 ---
 
