@@ -1,2 +1,5 @@
 .env
 Base APIs/__pycache__/
+# Local OAuth credentials and tokens
+Base APIs/client_secret.json
+Base APIs/*_token.json

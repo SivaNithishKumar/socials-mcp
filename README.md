@@ -18,7 +18,7 @@ This repository currently supports core posting & media-handling features for **
 | ✅ | **Facebook** | Page posts, image uploads, comments, deletions. |
 | ✅ | **Instagram** | Business/Creator photo container & publish, comments, deletions. |
 | ✅ | **LinkedIn** | UGC post create / delete. |
-| ⬜ | **YouTube** | Video search, upload & analytics *(next)* |
+| ✅ | **YouTube** | Video upload, search, analytics, comments |
 | ⬜ | **Reddit** | Subreddit feed, submissions, voting |
 | ⬜ | **Telegram** | Bot messaging, media, web-hooks |
 | ⬜ | **Discord** | Bot messaging, channel & guild utilities |
@@ -135,6 +135,7 @@ Open an issue if you're unsure where your change fits – we're happy to help.
   <tr>
     <td align="center"><img src="https://avatars.githubusercontent.com/u/119799567?v=4" width="80;" alt="darkside"/><br /><sub><b>The&nbsp;Darkside</b></sub></td>
     <td align="center"><img src="https://avatars.githubusercontent.com/u/126973043?s=64&v=4" width="80;" alt="jk"/><br /><sub><b>JK</b></sub></td>
+    <td align="center"><img src="https://avatars.githubusercontent.com/u/109946890?s=64&v=4" width="80;" alt="kanish"/><br /><sub><b>Kanish&nbsp;Yathra&nbsp;raj<br/>(joining&nbsp;soon)</b></sub></td>
   </tr>
 </table>
 
